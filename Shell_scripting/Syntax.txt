@@ -1,0 +1,50 @@
+If
+	if [ condition ];
+	then
+		statements
+	fi
+
+
+
+If_else
+	if [ conditon ];
+	then
+		statements
+	else
+		statements
+
+
+
+If_elif
+	if [ conditon ];
+	then
+		statements
+	elif [ condition ];
+	then
+		statements
+	else
+		statements
+	fi
+
+
+for
+	for var in list
+		do
+			statements
+		done
+
+
+
+while - It will enter into it if condition is True and work in the loop until false.
+	while [ condition ]
+		do
+			statements
+		done
+
+
+
+until - It will enter into it if condition is false and work in the loop until true.
+	until [ condition ]
+		do
+			statements
+		done
